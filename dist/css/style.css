@@ -4760,6 +4760,17 @@ html {
 }
 
 @media (max-width: 500px) {
+  .svg-404 {
+    width: 95vw;
+    height: 25vh;
+  }
+
+  .message:after,
+  .message:before {
+    color: #000;
+    margin: 0 5vw;
+  }
+
   .slide__explore {
     font-size: 20px;
     line-height: 26px;
