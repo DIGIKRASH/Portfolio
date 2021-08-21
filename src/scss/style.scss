@@ -1,0 +1,12 @@
+// ------ Styles -------
+@import "reset"; //--Reset styles
+@import "global"; //--Vars & Global properties
+@import "main"; //--Main properties
+@import "media"; //--Media properties
+
+
+// ---- Plugins ----
+@import "plugins/slick.scss";
+@import "plugins/onepage-scroll.scss";
+
+
