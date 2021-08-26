@@ -9,16 +9,11 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/style.min.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-    <!-- <script>
-        document.documentElement.className = "js";
-        var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
-        supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
-    </script> -->
 
 </head>
 
+<!-- Preloader
+======================================================= -->
 <div class="preloader">
     <div class='container'>
         <div class='spinner'>
@@ -45,16 +40,18 @@
             </filter>
         </defs>
     </svg>
-</div>
+</div><!-- Preloader end -->
 
 
-<body class="portfolio demo-1">
+<body class="portfolio">
 
     <!-- Custom-cursor -->
     <div id="cursor"></div>
     <div id="follower"></div>
 
 
+    <!-- Header
+    ======================================================= -->
     <header class="header">
         <nav class="menu">
             <a class="logo link">
@@ -64,8 +61,11 @@
                 <span>Обо мне</span>
             </a>
         </nav>
-    </header>
+    </header><!-- Header end -->
 
+
+    <!-- About-page
+    ======================================================= -->
     <div class="about-page">
         <div class="about-page__inner">
             <h1 class="about-page__title">
@@ -73,23 +73,26 @@
                 <p class="about-page__title-2">Мне</p>
             </h1>
             <p class="about-page__text">
-                <span>ЧАСТНЫЙ HTML ВЕРСТАЛЬЩИК (Г. БАРНАУЛ)</span>
-                Основная специализация: Верстка сайтов, интернет-магазинов и Landing Page (фиксированная, резиновая,
-                адаптивная) без посадки на CMS. Опыт работы более 6-ти лет. Работаю удаленно. Целеустремленная,
-                ответственная исполнительная. Имея
-                аналитический склад ума и логическое мышление - в процессе верстки продумываю каждую деталь и
-                подготавливаю удобный, в
+                <span>ВЕРСТАЛЬЩИК</span>
+                Основная специализация: Верстка сайтов, интернет-магазинов и Landing Page (фиксированная, резиновая, адаптивная). Работаю удаленно. Целеустремленный, ответственный исполнительный. Имею
+                аналитический склад ума и логическое мышление - в процессе верстки продумываю каждую деталь и подготавливаю удобный, в
                 нужных местах прокомментированный, код для программистов.
             </p>
         </div>
-    </div>
+    </div><!-- About end -->
 
+
+    <!-- Shape-overlays
+    ======================================================= -->
     <svg class="shape-overlays" viewBox="0 0 100 100" preserveAspectRatio="none">
         <path class="shape-overlays__path"></path>
         <path class="shape-overlays__path"></path>
         <path class="shape-overlays__path"></path>
-    </svg>
+    </svg><!-- Shape-overlays end -->
 
+
+    <!-- Soclist
+    ======================================================= -->
     <ul class="soclist">
         <li class="soclist__item">
             <a href="#">
@@ -133,12 +136,18 @@
                 </svg>
             </a>
         </li>
-    </ul>
+    </ul><!-- Soclist end -->
 
 
+
+    <!-- Main
+    ####################################################### 
+    ####################################################### -->
     <div class="wrapper">
         <div class="main">
 
+            <!-- Main-page
+            ======================================================= -->
             <section class="main-page">
                 <div class="main-page__inner">
                     <h1 class="main-page__title layer" data-speed="-1">
@@ -205,34 +214,37 @@
                     </div>
                     <div class="symbols">
                         <div class="symbol symbol-x layer" data-speed="2">
-                            <img src="./img/close.svg" alt="">
+                            <img src="./img/symbol-x.svg" alt="">
                         </div>
                         <div class="symbol symbol-x layer" data-speed="-1">
-                            <img src="./img/close.svg" alt="">
+                            <img src="./img/symbol-x.svg" alt="">
                         </div>
                         <div class="symbol symbol-x layer" data-speed="1">
-                            <img src="./img/close.svg" alt="">
+                            <img src="./img/symbol-x.svg" alt="">
                         </div>
                         <div class="symbol symbol-x layer" data-speed="5">
-                            <img src="./img/close.svg" alt="">
+                            <img src="./img/symbol-x.svg" alt="">
                         </div>
                         <div class="symbol symbol-x layer" data-speed="3">
-                            <img src="./img/close.svg" alt="">
+                            <img src="./img/symbol-x.svg" alt="">
                         </div>
                         <div class="symbol layer" data-speed="1">%</div>
                         <div class="symbol layer" data-speed="2">%</div>
                     </div>
 
                 </div>
-            </section>
+            </section><!-- Main-page end -->
 
+            <!-- Projects
+            ======================================================= -->
             <section class="slideshow">
 
                 <div class="slide">
                     <div class="slide__img-wrap">
-                        <div class="slide__img" style="background-image: url(img/project__img-1.jpg);"></div>
+                        <div class="slide__img" style="background-image: url(./img/projects-main/project__img-1.jpg);">
+                        </div>
                         <div class="project__behind">
-                            <img src="./img/project-1.jpg" alt="" class="project__img">
+                            <img src="./img/projects/project-1.jpg" alt="" class="project__img">
                         </div>
                         <div class="slide__img-reveal"></div>
                     </div>
@@ -253,9 +265,10 @@
 
                 <div class="slide">
                     <div class="slide__img-wrap">
-                        <div class="slide__img" style="background-image: url(img/project__img-2.jpg);"></div>
+                        <div class="slide__img" style="background-image: url(./img/projects-main/project__img-2.jpg);">
+                        </div>
                         <div class="project__behind">
-                            <img src="./img/project-1.jpg" alt="" class="project__img">
+                            <img src="./img/projects/project-2.jpg" alt="" class="project__img">
                         </div>
                         <div class="slide__img-reveal"></div>
                     </div>
@@ -276,9 +289,10 @@
 
                 <div class="slide">
                     <div class="slide__img-wrap">
-                        <div class="slide__img" style="background-image: url(img/project__img-3.jpg);"></div>
+                        <div class="slide__img" style="background-image: url(./img/projects-main/project__img-3.jpg);">
+                        </div>
                         <div class="project__behind">
-                            <img src="./img/project-1.jpg" alt="" class="project__img">
+                            <img src="./img/projects/project-3.jpg" alt="" class="project__img">
                         </div>
                         <div class="slide__img-reveal"></div>
                     </div>
@@ -297,8 +311,10 @@
                     </div>
                 </div>
 
-            </section>
+            </section><!-- Projects end -->
 
+            <!-- Last-page
+            ======================================================= -->
             <section class="last-page">
                 <div class="last-page__inner">
                     <div class="last-page__line"></div>
@@ -314,10 +330,13 @@
                         </div>
                     </h1>
                 </div>
-            </section>
+            </section><!-- Last-page end -->
 
         </div>
     </div>
+    <!--Main end
+    #######################################################
+    #######################################################  -->
 
 
 
